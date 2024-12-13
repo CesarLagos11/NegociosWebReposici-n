@@ -1,0 +1,19 @@
+{
+    "routes": {
+        "/": {
+            "controller": "PublicController",
+            "method": "handleRequest",
+            "description": "Página pública principal."
+        },
+        "/events": {
+            "controller": "EcoEventsController",
+            "method": "handleRequest",
+            "description": "Gestión de eventos (Work With)."
+        },
+        "/private": {
+            "controller": "PrivateController",
+            "method": "handleRequest",
+            "description": "Página privada para usuarios autenticados."
+        }
+    }
+}

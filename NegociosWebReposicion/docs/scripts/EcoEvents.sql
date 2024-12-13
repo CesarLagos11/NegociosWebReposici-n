@@ -1,0 +1,1 @@
+CREATE TABLE EcoEvents ( EventID INT PRIMARY KEY AUTO_INCREMENT, EventName VARCHAR(100), EventDate DATE, Location VARCHAR(100), OrganizedBy VARCHAR(100), EventType VARCHAR(50) );
